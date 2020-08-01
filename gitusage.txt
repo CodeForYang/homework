@@ -1,0 +1,3 @@
+git 命令使用
+git log --pretty=oneline #日志单行显示
+git reset --hard HEAD^ 回退到对应版本,n个 ^ 代表上n个版本
