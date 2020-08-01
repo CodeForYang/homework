@@ -1,3 +1,10 @@
 git 命令使用
+开发环境: 用开发工具&手动修改的代码
+暂存区: 修改的代码在开发环境 ,用 add命令提交到暂存区
+本地仓库: 暂存区用 commit命令提交到本地仓库
+远程仓库: 本地仓库用 push 命令提交到远程仓库
+
 git log --pretty=oneline #日志单行显示
 git reset --hard HEAD^ 回退到对应版本,n个 ^ 代表上n个版本
+git reset --hard 19d9b70b77 回退到指定版本
+git checkout README.md  将文件从暂存区内移除(将README.md文件跟随分支的版本)
