@@ -8,3 +8,7 @@ git log --pretty=oneline #日志单行显示
 git reset --hard HEAD^ 回退到对应版本,n个 ^ 代表上n个版本
 git reset --hard 19d9b70b77 回退到指定版本
 git checkout README.md  将文件从暂存区内移除(将README.md文件跟随分支的版本)
+git rm -rf test.java  删除test.java文件
+git checkout -b dev  创建一个dev的分支并切换到dev(原本分支在master)
+git branch master  切换到master分支
+git merge dev  合并分支
